@@ -31,8 +31,8 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000000;
   line-height: 22px;
+  color: #F5AE23;
 }
 
 h4 {
@@ -93,6 +93,7 @@ a {
 
 #skills {
   display: none;
+  margin-top: -1em;
 }
 
 .orange {
@@ -139,7 +140,10 @@ a {
 ul {
   list-style-type: none;
 }
-
+#skills li {
+  display: inline;
+  margin-right: 2em;
+}
 
 .biopic {
   float: left;
