@@ -9,12 +9,12 @@
 h1 {
   color: #fff;
   letter-spacing: 0.05em;
-  font-family: 'Raleway Dots', cursive;
+  font-family: 'Raleway Dots', Helvetica;
   margin-bottom: 0;
 }
 
 #role {
-  font-family: 'Raleway Dots', cursive;
+  font-family: 'Raleway Dots', Helvetica;
 }
 
 #header span {
@@ -75,6 +75,11 @@ ul {
 
   margin-bottom: 0;
   margin-top: -0.2em;
+}
+
+#workExperience, #education, #projects {
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /******** Work section ********/
