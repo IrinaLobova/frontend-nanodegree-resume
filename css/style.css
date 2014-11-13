@@ -69,6 +69,7 @@ ul {
   margin: 0;
   color: #fff;
   font-family: Lucida, sans-serif;
+  color: #DC143C;
 }
 
 .button.tiny {
@@ -97,15 +98,20 @@ h2 {
 #education {
   background-color: #E8E8E8;
 }
-.location-text {
+.location-text, .date-text {
   font-style: italic;
   font-size: 14px;
 }
 .education-entry {
   margin-top: 0.5em;
 }
-h3, .online-entry {
+h3 {
+  font-size: 22px;
   margin-top: 1em;
+}
+
+.schoolUrl {
+  margin-bottom: 1em;
 }
 
 /******* Map *******/
@@ -127,6 +133,30 @@ h3, .online-entry {
   text-align: center;
   background-color: #282B2A;
   color: #fff; 
+}
+/****** Sctoll to the top (JQuery) *******/
+#message a
+{
+  /* display: block before hiding */
+  display: block;
+  display: none;
+
+  /* link is above all other elements */
+  z-index: 999; 
+
+  /* link doesn't hide text behind it */
+  opacity: .6;
+
+  /* link stays at same place on page */
+  position: fixed;
+
+  /* link goes at the bottom of the page */
+  top: 100%;
+  margin-top: -110px; /* preferred bottom margin */
+
+  /* link is centered */
+  left: 100%;
+  margin-left: -160px; /* = half of width */
 }
 
 

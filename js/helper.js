@@ -37,23 +37,23 @@ var HTMLworkDescription = "<p>%data%</p>";
 
 var HTMLprojectStart = "<li class='project-entry'></li>";
 var HTMLprojectTitle = "<a href='#'>%data%</a>";
-var HTMLprojectDates = "<div class='date-text'>%data%</div>";
+var HTMLprojectDates = "<div>%data%</div>";
 var HTMLprojectDescription = "<p class='hide-for-small-only'><br>%data%</p>";
 var HTMLprojectImage = "<img src='%data%'>";
 
 var HTMLschoolStart = "<div class='education-entry'></div>";
-var HTMLschoolName = "<a href='#'>%data%";
+var HTMLschoolName = "<a href='#' class='large-9 columns'>%data%";
 var HTMLschoolDegree = " -- %data%</a>";
-var HTMLschoolLocation = "<div class='location-text'>%data%</div>";
-var HTMLschoolDates = "<div class='date-text'>%data%</div>";
-var HTMLschoolMajor = "<em>Major: %data%</em>"
+var HTMLschoolLocation = "<div class='location-text large-2 columns'>%data%</div>";
+var HTMLschoolDates = "<div class='date-text large-1 columns'>%data%</div>";
+var HTMLschoolMajor = "<em class='large-12 columns'>Major: %data%</em>"
 
 var HTMLonlineStart = "<div class='online-entry'></div>";
-var HTMLonlineClasses = "<h3>Online Classes</h3>";
-var HTMLonlineTitle = "<a href='#'>%data%";
+var HTMLonlineClasses = "<h3 class='large-12 columns'>Online Classes</h3>";
+var HTMLonlineTitle = "<a href='#' class='large-9 columns'>%data%";
 var HTMLonlineSchool = " - %data%</a>";
-var HTMLonlineDates = "<div class='date-text'>%data%</div>";
-var HTMLonlineURL = "<a href='#'>%data%</a>";
+var HTMLonlineDates = "<div class='date-text large-3 large-push-2 columns'>%data%</div>";
+var HTMLonlineURL = "<a href='#' class='schoolUrl large-12 columns'>%data%</a>";
 
 var googleMap = "<div id='map'></div>";
 
