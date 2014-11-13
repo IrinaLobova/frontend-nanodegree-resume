@@ -1,211 +1,113 @@
-*{
-    padding:0;
-    margin:0;
-    font-family: 'Roboto', sans-serif;
+
+/******* Header section ********/
+
+#header {
+  background-color: #282B2A;
+  color: #fff;
 }
-
-
-
-.education-entry, .work-entry, .project-entry {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
 
 h1 {
+  color: #fff;
+  letter-spacing: 0.05em;
+  font-family: 'Raleway Dots', cursive;
+  margin-bottom: 0;
+}
 
-  font-size: 40px;
-  color: #F5A623;
-  line-height: 48px;
+#role {
+  font-family: 'Raleway Dots', cursive;
+}
+
+#header span {
+  margin-bottom: 1em;
+} 
+
+.biopic {
+  padding: 0;
+  width: 200px;
+}
+
+#topContacts {
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+#topContacts li {
   display: inline;
-}
-
-h2 {
-  font-style: bold;
-  font-size: 24px;
-  color: #999999;
-  line-height: 29px;
-  padding: 10px;
-}
-
-h3 {
-  font-style: italic;
-  font-size: 20px;
-  line-height: 22px;
-  color: #F5AE23;
-}
-
-h4 {
-  font-style: bold;
   font-size: 14px;
-  color: #4A4A4A;
-  line-height: 17px;
-}
-
-h2, h3, h4, h5 {
-  padding:10px;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-
-.date-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999999;
-  line-height: 16px;
-  float: left;
-}
-
-.location-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999999;
-  line-height: 16px;
-  float: right;
-
-}
-
-p {
-  font-size: 14px;
-  color: #333333;
-  line-height: 21px;
-}
-
-a {
-  color: #1199C3;
-  text-decoration: none;
-  margin-top: 10px;
-  display: block;
-}
-
-.welcome-message {
-  font-style: italic;
-  font-size: 18px;
-  color: #F3F3F3;
-  line-height: 28px;
-}
-
-#skillsH3 {
-  color: #F5AE23;
-  display: none;
-}
-
-#skills {
-  display: none;
-  margin-top: -1em;
-}
-
-.orange {
-  background-color: #F5AE23;
+  padding-left: 0;
+  font-family: Lucida, sans-serif;
 }
 
 .orange-text {
-  color: #F5AE23;
-}
-
-.white-text {
-  font-weight: bold;
-  color: #FFFFFF;
-}
-
-.gray {
-  background-color: #F3F3F3;
-  padding-bottom: 10px;
-  clear:both;
-}
-
-.dark-gray {
-  background-color: #4A4A4A;
-}
-
-/* TODO: Replace with image later */
-#header {
-  background-color: #484848;
-}
-
-.flex-box {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
-}
-
-.center-content {
-  padding: 5%;
+  margin-right: 1%;
+  color: #DC143C;
 }
 
 ul {
   list-style-type: none;
 }
+.welcome-message {
+  font-family: Lucida, sans-serif;
+}
+
+#header ul {
+  padding-top: 0;
+}
+#skills {
+  padding-top: 1em;
+  margin: 0;
+  font-family: Lucida, sans-serif;
+ }
+
 #skills li {
   display: inline;
-  margin-right: 2em;
+  margin-right: 1em;
 }
 
-.biopic {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
+.skillsH3 {
+  font-size: 20px;
+  margin: 0;
+  color: #fff;
+  font-family: Lucida, sans-serif;
 }
 
-img {
-  padding: 10px;
+.button.tiny {
+
+  margin-bottom: 0;
+  margin-top: -0.2em;
 }
 
-
-/* Bar chart stuff */
-.chart div {
-  font: 10px sans-serif;
-  background-color: #4A4A4A;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  height: 12px;
-  color: white;
-  display: inline-block;
+/******** Work section ********/
+h2 {
+  font-family: Lucida, sans-serif;
+  font-size: 28px;
+}
+#workExperience {
+  background-color: #E8E8E8;
+}
+.small-block-grid-3 {
+  margin: 0;
+}
+/******* Education section *********/
+#education {
+  background-color: #E8E8E8;
+}
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+}
+.education-entry {
+  margin-top: 0.5em;
+}
+h3, .online-entry {
+  margin-top: 1em;
 }
 
-span {
-  padding: 5px;
-}
-
-#letsConnect {
-  text-align: center;
-}
-
-@media only screen and (max-width: 1024px) {
-  #letsConnect {
-    margin-top: 5%;
-  }
-}
-
-@media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  #letsConnect {
-    margin-top: 10%;
-  }
-  .biopic {
-    width: 150px;
-  }
-  .welcome-message {
-    display: none;
-  }
-}
+/******* Map *******/
 
 #map {
   display: block;
   height: 100%;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 #mapDiv {
@@ -214,10 +116,47 @@ span {
   padding-bottom: 5%;
 }
 
-@media only screen and (min-width: 750px) {
-  #skillsH3,
-  #skills,
-  .biopic {
-    display: block;
-  }
+/******* Footer *******/
+
+.center-text {
+  text-align: center;
+  background-color: #282B2A;
+  color: #fff; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
